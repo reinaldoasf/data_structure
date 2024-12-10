@@ -57,7 +57,7 @@ if __name__ == '__main__':
     linkedList = DoublyLinkedList()
     linkedList.add_front(2)
     linkedList.add_front(6)
-    linkedList.add_front(1)
+    linkedList.add_prev(1)
     linkedList.add_front(9)
     print(linkedList)
     linkedList.pop_head()
