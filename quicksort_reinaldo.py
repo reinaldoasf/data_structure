@@ -33,10 +33,7 @@ def quicksort_rei (arr, left=0, right=None,debug=False):
 
 if __name__ == "__main__":
 	n = input("Insert range of random array\n")
-	try:
-		n = int(n)
-	except:
-		raise("Error type an non negative instance of int")
+	n = int(n)
 	arr = []
 	for _ in range(n):
 		arr.append(randint(-20,20))
