@@ -64,6 +64,7 @@ class BinaryTree:
         result = []
         self._postorder_recursive(self.root, result)
         return result
+
     def _postorder_recursive(self, node, result):
         if node:
             self._postorder_recursive(node.left,result)
